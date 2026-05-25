@@ -1,0 +1,16 @@
+![alt text](lib/assets/image.png)
+# [Backgroundify](https://nelvismyname.github.io/Backgroundify)
+Your display into a simple light source. Non-intrusive, and perfect for video/pictures.
+
+> [!Warning]
+> # WhiteScreen.com may be malicious
+> [WhiteScreen.com Privacy Policy](https://www.whitescreen.online/privacy-policy/)
+> 
+> Under the section "How we use your information", the listed is very suspicious for a **simple website.** I the creator do not receive any information from any users who uses Backgroundify.
+
+# Building
+Backgroundify is barebones, and simple. Code is pretty much common sense
+```
+git clone https://github.com/nelvismyname/Backgroundify.git
+```
+
