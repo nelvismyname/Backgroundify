@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M12 22q-2.05 0-3.875-.788t-3.187-2.15t-2.15-3.187T2 12q0-2.075.813-3.9t2.2-3.175T8.25 2.788T12.2 2q2 0 3.775.688t3.113 1.9t2.125 2.875T22 11.05q0 2.875-1.75 4.413T16 17h-1.85q-.225 0-.312.125t-.088.275q0 .3.375.863t.375 1.287q0 1.25-.687 1.85T12 22" />
+	<circle cx="6.5" cy="11.5" r="0.5" fill="white" />
+	<circle cx="9.5" cy="7.5" r="0.5" fill="white" />
+	<circle cx="14.5" cy="7.5" r="0.5" fill="white" />
+	<circle cx="17.5" cy="11.5" r="0.5" fill="white" />
+</svg>

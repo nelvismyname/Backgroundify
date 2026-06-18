@@ -4,60 +4,37 @@ html, body {
     background: #000;
     font-family: system-ui, sans-serif;
     font-weight: 800;
+    -webkit-text-size-adjust: 100%;
 }
 
 .zone {
     position: fixed;
     bottom: 8px;
     right: 8px;
-    width: 26px;
-    height: 26px;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     touch-action: manipulation;
+    z-index: 999;
+    flex-shrink: 0;
 }
 
 .zone img {
-    width: 26px;
-    height: 26px;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1;
     border-radius: 50%;
     background: #000;
+    flex-shrink: 0;
+    display: block;
+    transition: opacity 0.2s ease;
 }
 
 .zone:hover img,
 .zone:active img {
     opacity: 0.7;
-}
-
-.menu {
-    position: fixed;
-    bottom: 42px;
-    right: 8px;
-    padding: 6px;
-    border-radius: 64px;
-    background: #000;
-    display: none;
-    border: 1px solid #fff;
-}
-
-.menu input[type="color"] {
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    background: transparent;
-    outline-offset: -1px;
-}
-
-.menu input[type="color"]::-webkit-color-swatch {
-    border-radius: 50%;
-    border: none;
-}
-
-.menu input[type="color"]::-moz-color-swatch {
-    border-radius: 50%;
-    border: none;
 }
